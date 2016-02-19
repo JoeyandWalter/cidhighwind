@@ -8,7 +8,7 @@ FPS = 30 # frames per second setting
 fpsClock = pygame.time.Clock()
 
 # Loading and playing background music:
-pygame.mixer.music.load('C:\Users\jxw3498\Desktop\Python\makinggames\leek - spin.mp3')
+pygame.mixer.music.load('Leek.Spin.mp3')
 pygame.mixer.music.play(-1, 0.0)
 # ...some more of your code goes here...
 
@@ -19,7 +19,7 @@ DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)
 pygame.display.set_caption('Animation')
 
 WHITE = (0, 150, 0)
-catImg = pygame.image.load('C:\Users\jxw3498\Desktop\Python\sprites\cidhighwind.png')
+catImg = pygame.image.load('cidhighwind.png')
 catx = 10
 caty = 10
 direction = 'right'
